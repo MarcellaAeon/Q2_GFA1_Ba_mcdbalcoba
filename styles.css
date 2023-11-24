@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    margin: 0px;
+    padding: 15px;
+    border: 1px solid black;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgba(102, 80, 85, 1);
+    justify-content: space-around;
+    width: 98.2vw;
+    height: 20px;
+    top: 0px;
+}
+
+nav{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    color: #cdd5d1;
+}
+
+nav a{
+    margin: 3px;
+    padding: 3px;
+    color: #ddf8e8;
+}
+
+footer{
+    margin: 0px;
+    padding: 15px;
+    border: 1px solid black;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    position: fixed;
+    justify-content: space-around;
+    background-color: rgba(102, 80, 85, 0.75);
+    width: 98.2vw;
+    height: 20px;
+    bottom: 0;
+}
+
+section{
+    position: relative;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(208, 134, 152, 0.75);
+}
+
+article{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #5a3d4d;
+}
+
+.icon{
+    background: url(Media/sprite3.png) no-repeat;
+    display: inline-block;
+    width: 66px;
+    height: 66px;
+}
+
+#twt{
+    background-position: -66px -72px;
+}
+
+#yt{
+    background-position: -439px -221px;
+}
+
+#fb{
+    background-position: -439px -146px;
+}
+
+#ig{
+    background-position: -290px -221px;
+}
+
+#bg{
+    position: fixed;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 640px){
+    .button{
+        background-color: #946e83;
+        color: white;
+        padding: 1vw;
+    }
+
+    .dropdown{
+        position: relative;
+        display: inline-block;
+    }
+
+    .items{
+        display: none;
+        position: absolute;
+        background-color: #b4a6ab;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);
+    }
+
+    .items a{
+        color: #665055;
+        padding: 12px 16 px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .items a:hover{
+        background-color: #cdd5d1;
+    }
+    
+    .dropdown:hover .items{
+        display: block;
+    }
+
+    .dropdown:hover .button{
+        background-color: #946e83;
+    }
+}
