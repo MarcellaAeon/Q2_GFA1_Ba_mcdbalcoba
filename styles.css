@@ -10,8 +10,6 @@ header{
     margin: 0px;
     padding: 15px;
     border: 1px solid black;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
     background-color: rgba(102, 80, 85, 1);
     justify-content: space-around;
     width: 98.2vw;
@@ -36,11 +34,9 @@ footer{
     margin: 0px;
     padding: 15px;
     border: 1px solid black;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
     position: fixed;
     justify-content: space-around;
-    background-color: rgba(102, 80, 85, 0.75);
+    background-color: rgba(102, 80, 85, 1);
     width: 98.2vw;
     height: 20px;
     bottom: 0;
